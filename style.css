@@ -1,0 +1,52 @@
+
+body {
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+
+  
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+       .grid_container {
+           display: grid;
+           grid-template-columns: auto;
+       } 
+ .header {
+                display: flex;
+                justify-content:flex-start;
+                padding: 10px;
+    }
+   .head_text {
+    -family: Playfair Display,sans-serif;
+      font-size: 50px;
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 0em;
+      text-align: left;
+
+   } 
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+
+  
+}
+
+
