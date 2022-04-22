@@ -14,210 +14,166 @@ body::-webkit-scrollbar-track {
   background: #1e1e24;
 }
 
-body::-webkit-scrollbar-thumb {
+body::-webkit-417 + :-moz-any() {
   background: #6649b8;
 }
 
-
-  
-
 /* Small screens */
 @media only screen and (max-width: 600px) {
-       .grid_container {
-           display: grid;
-           grid-template-columns: auto;
-       } 
+  .grid_container {
+    display: grid;
+    grid-template-columns: auto;
+  }
 
-      .header {
-                display: flex;
-                justify-content:flex-start;
-                padding: 10px;
-    }
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+  }
 
-   .head_text {
-    font-family: Playfair Display,sans-serif;
-      font-size: 50px;
-      font-weight: 400;
-      line-height: 50px;
-      letter-spacing: 0em;
-      text-align: left;
-     } 
+  .head_text {
+    font-family: " Playfair Display", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+  }
 
-     .card{
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      min-height: 100%;
-      background-color: #1a2236;
-     }
+  .card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 100%;
+    background-color: #1a2236;
+  }
 
-     .card h1 {
-      font-family: Poppins;
-      font-size: 25px;
-      font-weight: 300;
-      line-height: 16px;
-      letter-spacing: 5px;
-      text-align: left;
-      color: #fff;
-      padding: 10px;
-     }
-     
-     .card ul {
-       display: flex;
-       list-style-type:none;
-       padding: 1px;
-       justify-content: space-around;
-       margin-right: 100px;
-     }
-     .card li {
-      background-color: #98DEDE;
-      height: 25px;
-      width: 110px;
-      border-radius: 2px;
-      text-align: center;
-      justify-self: center;
-      letter-spacing: 2px;
-     } 
+  .card h1 {
+    font-family: " Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #fff;
+    padding: 10px;
+  }
 
-     .project  {
-        display: flex;
-        border: solid #fff;
-        background-position: center right;
-        background-repeat:no-repeat;
-        height: 44px;
-         width: 200px;
-         justify-content:flex-start;
-         align-items: center;
-         padding: 9px;
-         margin-left: 10px;
-         background-image: url(./assert//ic_arrow_right.png);
-     }
+  .card ul {
+    display: flex;
+    list-style-type: none;
+    padding: 1px;
+    justify-content: space-around;
+    margin-right: 100px;
+  }
 
-     .project  {
-      display: flex;
-      border: solid #fff;
-      background-position: center right;
-      background-repeat:no-repeat;
-      height: 44px;
-       width: 200px;
-       justify-content:flex-start;
-       align-items: center;
-       padding: 10px;
-       margin-left: 10px;
-       background-image: url(./assert//ic_arrow_right.png);
-   }
+  .card li {
+    background-color: #98dede;
+    height: 25px;
+    width: 110px;
+    border-radius: 2px;
+    text-align: center;
+    justify-self: center;
+    letter-spacing: 2px;
+  }
 
-   .project {
+  .project {
     display: flex;
     border: solid #fff;
     background-position: center right;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     height: 44px;
-     width: 200px;
-     justify-content:flex-start;
-     align-items: center;
-     padding: 9px;
-     margin-left: 10px;
-     background-image: url(./assert//ic_arrow_right.png);
- }
+    width: 200px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 9px;
+    margin-left: 10px;
+    background-image: url(./assert//ic_arrow_right.png);
+  }
 
+  .project h2 {
+    color: #fff;
+  }
 
-     .project h2{
+  .thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./assert/Rectangle\ 215.png);
+  }
 
-      color: #fff;
-     }
-
- .thumb {
-   padding-bottom: 60%;
-   background-size: cover;
-   background-position: center center;
-   background-image:url(./assert/Rectangle\ 21\ \(1\).png)
- }
-
- .thumb1 {
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center center;
-  background-image:url(./assert/Rectangle\ 21\ \(2\).png)
-}
+  .thumb1 {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./assert/Rectangle\ 214.png);
+  }
 
   .thumb2 {
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center center;
-  background-image:url(./assert/Rectangle\ 21\ \(3\).png)
-}
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./assert/Rectangle\ 213.png);
+  }
 
-.thumb3 {
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(/assert/Rectangle\ 21.png);
-}
+  .thumb3 {
+    background-size: cover;
+    background-position: center center;
+    background-image: url(/assert/Rectangle\ 21.png);
+  }
 
-.thumb4 {
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(/assert/Rectangle\ 21\ \(4\).png);
-}
+  .thumb4 {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(/assert/Rectangle\ 211.png);
+  }
 
-.thumb5 {
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(/assert/Rectangle\ 21\ \(5\).png);
-}
+  .thumb5 {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(/assert/Rectangle\ 21.png);
+  }
 
- .article p {
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 16px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #fff;
- }
+  .article p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    color: #fff;
+  }
 
- .about h1 {
-  font-family: Playfair Display;
-  font-size: 50px;
-  font-weight: 400;
-  line-height: 50px;
-  letter-spacing: 0em;
-  text-align: left;
-  padding: 5px;  
- }
+  .about h1 {
+    font-family: " Playfair Display", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    padding: 5px;
+  }
 
- .about p {
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
-  
- } 
+  .about p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+  }
 
   .about h2 {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: center;
     border: solid #1a2236;
     height: 50px;
     width: 288px;
     background-color: #1a2236;
-    border-radius: 0px;
     color: #fff;
-    text-align: center;
-      }
+  }
 }
 
 /* Large screens */
-@media only screen and (min-width: 600px) {
 
-  
-}
-
-
+/* @media only screen and (min-width: 600px) {
+} */
