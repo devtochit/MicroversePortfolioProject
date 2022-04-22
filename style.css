@@ -27,20 +27,191 @@ body::-webkit-scrollbar-thumb {
            display: grid;
            grid-template-columns: auto;
        } 
- .header {
+
+      .header {
                 display: flex;
                 justify-content:flex-start;
                 padding: 10px;
     }
+
    .head_text {
-    -family: Playfair Display,sans-serif;
+    font-family: Playfair Display,sans-serif;
       font-size: 50px;
       font-weight: 400;
       line-height: 50px;
       letter-spacing: 0em;
       text-align: left;
+     } 
 
-   } 
+     .card{
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      min-height: 100%;
+      background-color: #1a2236;
+     }
+
+     .card h1 {
+      font-family: Poppins;
+      font-size: 25px;
+      font-weight: 300;
+      line-height: 16px;
+      letter-spacing: 5px;
+      text-align: left;
+      color: #fff;
+      padding: 10px;
+     }
+     
+     .card ul {
+       display: flex;
+       list-style-type:none;
+       padding: 1px;
+       justify-content: space-around;
+       margin-right: 100px;
+     }
+     .card li {
+      background-color: #98DEDE;
+      height: 25px;
+      width: 110px;
+      border-radius: 2px;
+      text-align: center;
+      justify-self: center;
+      letter-spacing: 2px;
+     } 
+
+     .project  {
+        display: flex;
+        border: solid #fff;
+        background-position: center right;
+        background-repeat:no-repeat;
+        height: 44px;
+         width: 200px;
+         justify-content:flex-start;
+         align-items: center;
+         padding: 9px;
+         margin-left: 10px;
+         background-image: url(./assert//ic_arrow_right.png);
+     }
+
+     .project  {
+      display: flex;
+      border: solid #fff;
+      background-position: center right;
+      background-repeat:no-repeat;
+      height: 44px;
+       width: 200px;
+       justify-content:flex-start;
+       align-items: center;
+       padding: 9px;
+       margin-left: 10px;
+       background-image: url(./assert//ic_arrow_right.png);
+   }
+
+   .project {
+    display: flex;
+    border: solid #fff;
+    background-position: center right;
+    background-repeat:no-repeat;
+    height: 44px;
+     width: 200px;
+     justify-content:flex-start;
+     align-items: center;
+     padding: 9px;
+     margin-left: 10px;
+     background-image: url(./assert//ic_arrow_right.png);
+ }
+
+
+     .project h2{
+
+      color: #fff;
+     }
+
+ .thumb {
+   padding-bottom: 60%;
+   background-size: cover;
+   background-position: center center;
+   background-image:url(./assert/Rectangle\ 21\ \(1\).png)
+ }
+
+ .thumb1 {
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center center;
+  background-image:url(./assert/Rectangle\ 21\ \(2\).png)
+}
+
+  .thumb2 {
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center center;
+  background-image:url(./assert/Rectangle\ 21\ \(3\).png)
+}
+
+.thumb3 {
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(/assert/Rectangle\ 21.png);
+}
+
+.thumb4 {
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(/assert/Rectangle\ 21\ \(4\).png);
+}
+
+.thumb5 {
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(/assert/Rectangle\ 21\ \(5\).png);
+}
+
+ .article p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+ }
+
+ .about h1 {
+  font-family: Playfair Display;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 5px;  
+ }
+
+ .about p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+ } 
+
+  .about h2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: solid #1a2236;
+    height: 50px;
+    width: 288px;
+    background-color: #1a2236;
+    border-radius: 0px;
+    color: #fff;
+    text-align: center;
+      }
 }
 
 /* Large screens */
