@@ -171,6 +171,27 @@ body::-webkit-417 + :-moz-any() {
     background-color: #1a2236;
     color: #fff;
   }
+
+  .framework {
+    background: #febf52;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 25%;
+    padding: 10px;
+  }
+
+  .skills {
+    background: #1c528a;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 25%;
+    padding: 10px;
+  }
+
+  .lang {
+    background: #e2505c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 25%;
+    padding: 10px;
+  }
 }
 
 /* Large screens */
