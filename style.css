@@ -116,7 +116,8 @@ body::-webkit-417 + :-moz-any() {
   .thumb3 {
     background-size: cover;
     background-position: center center;
-    background-image: url(/assert/Rectangle\ 21.png);
+    background-image: url(/assert/Rectangle\ 212.png);
+    padding-bottom: 60%;
   }
 
   .thumb4 {
