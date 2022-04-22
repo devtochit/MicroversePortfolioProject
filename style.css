@@ -100,7 +100,7 @@ body::-webkit-scrollbar-thumb {
        width: 200px;
        justify-content:flex-start;
        align-items: center;
-       padding: 9px;
+       padding: 10px;
        margin-left: 10px;
        background-image: url(./assert//ic_arrow_right.png);
    }
