@@ -277,3 +277,34 @@ body {
   width: 100px;
   height: 100px;
 }
+
+.form-section {
+  margin-top: 60px;
+  background: #f9f9fa;
+color: #1a2236;
+}
+
+section {
+
+}
+
+.section-h{
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100;
+  line-height: 100%;
+  color: #1a2236;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 249px;
+height: 50px;
+}
+.section-p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.01em;
+}
