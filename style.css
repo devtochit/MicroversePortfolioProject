@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -60,10 +61,182 @@
 
   .content_button {
     margin: 10px;
+=======
+
+body {
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-417 + :-moz-any() {
+  background: #6649b8;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+  }
+
+  .head_text {
+    font-family: " Playfair Display", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+  }
+
+  .card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 100%;
+    background-color: #1a2236;
+  }
+
+  .card h1 {
+    font-family: " Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .card ul {
+    display: flex;
+    list-style-type: none;
+    padding: 1px;
+    justify-content: space-around;
+    margin-right: 100px;
+  }
+
+  .card li {
+    background-color: #98dede;
+    height: 25px;
+    width: 110px;
+    border-radius: 2px;
+    text-align: center;
+    justify-self: center;
+    letter-spacing: 2px;
+  }
+
+  .project {
+    display: flex;
+    border: solid #fff;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 200px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 9px;
+    margin-left: 10px;
+    background-image: url(./assert//ic_arrow_right.png);
+  }
+
+  .project h2 {
+    color: #fff;
+  }
+
+  .thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./assert/Rectangle\ 215.png);
+  }
+
+  .thumb1 {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./assert/Rectangle\ 214.png);
+  }
+
+  .thumb2 {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./assert/Rectangle\ 213.png);
+  }
+
+  .thumb3 {
+    background-size: cover;
+    background-position: center center;
+    background-image: url(/assert/Rectangle\ 212.png);
+    padding-bottom: 60%;
+  }
+
+  .thumb4 {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(/assert/Rectangle\ 211.png);
+  }
+
+  .thumb5 {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(/assert/Rectangle\ 21.png);
+  }
+
+  .article p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    color: #fff;
+  }
+
+  .about h1 {
+    font-family: " Playfair Display", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .about p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+  }
+
+  .about h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    border: solid #1a2236;
+>>>>>>> mobileversion
     height: 50px;
     width: 288px;
     background-color: #1a2236;
     color: #fff;
+<<<<<<< HEAD
     flex-grow: 4;
   }
 
@@ -101,3 +274,33 @@
     flex-direction: column;
   }
 }
+=======
+  }
+
+  .framework {
+    background: #febf52;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 25%;
+    padding: 10px;
+  }
+
+  .skills {
+    background: #1c528a;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 25%;
+    padding: 10px;
+  }
+
+  .lang {
+    background: #e2505c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 25%;
+    padding: 10px;
+  }
+}
+
+/* Large screens */
+
+/* @media only screen and (min-width: 600px) {
+} */
+>>>>>>> mobileversion
