@@ -10,6 +10,10 @@ body {
   margin: 0;
 }
 
+li {
+  list-style: none;
+}
+
 #toolbar {
   display: flex;
   justify-content: space-between;
@@ -278,28 +282,42 @@ body {
   height: 100px;
 }
 
+footer {
+  background: url("./assert/image_geometry_1.png");
+  background-repeat: no-repeat;
+}
+
 .form-section {
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 24px;
+  padding-top: 50px;
   margin-top: 60px;
   background: #f9f9fa;
 color: #1a2236;
 }
 
-section {
-
+.section {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
 }
 
 .section-h{
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 100;
+  font-size: 50px;
   line-height: 100%;
   color: #1a2236;
-  margin-left: 40px;
   margin-top: 30px;
   width: 249px;
 height: 50px;
+margin-bottom: 20px;
 }
+
 .section-p{
   font-family: 'Poppins';
 font-style: normal;
@@ -307,4 +325,14 @@ font-weight: 400;
 font-size: 14px;
 line-height: 21px;
 letter-spacing: -0.01em;
+margin-bottom: 32px;
+}
+
+.name-input {
+  width: 288px;
+height: 52px;
+  background: #FFFFFF;
+border: 1px solid #DFDFE0;
+box-sizing: border-box;
+border-radius: 4px;
 }
