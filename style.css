@@ -10,6 +10,10 @@ body {
   margin: 0;
 }
 
+li {
+  list-style: none;
+}
+
 #toolbar {
   display: flex;
   justify-content: space-between;
@@ -58,6 +62,7 @@ body {
   padding: 12px 60px 11.53px 60px;
   background-color: #1a2236;
   margin-top: 20px;
+  margin-left: 30px;
 }
 
 .toprofile {
@@ -276,4 +281,154 @@ body {
   right: 0;
   width: 100px;
   height: 100px;
+}
+
+.form-section {
+  background: #f9f9fa;
+  color: #1a2236;
+}
+
+.form-section1 {
+  padding: 0 14px 0 18px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section-h {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+  margin-top: 30px;
+  width: 249px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.section-p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  margin-bottom: 32px;
+}
+
+input {
+  width: 100%;
+  height: 52px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 16px;
+  padding-top: 4px;
+  padding-bottom: 33px;
+  margin-bottom: 8px;
+}
+
+textarea {
+  width: 100%;
+  height: 112px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 16px;
+  padding-top: 4px;
+  color: #98dede;
+}
+
+.name-input {
+  width: 288px;
+  height: 52px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.mail-input {
+  width: 288px;
+  height: 52px;
+  background: #fff;
+  border: 1px solid #1a2236;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.textarea-input {
+  width: 288px;
+  height: 112px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.personal-contact {
+  background-color: #1a2236;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.social-links {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-top: 30.5px;
+  padding-bottom: 40px;
+  width: 80%;
+  margin-left: 50px;
+}
+
+.form-btn {
+  border: 1px solid #1a2236;
+  background-color: #1a2236;
+  color: white;
+  margin: 15px 0 64px 0;
+  width: 100%;
+  height: 44px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.resume-con {
+  display: flex;
+  gap: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92dcdc;
+  padding-top: 60px;
+  padding-left: 16px;
+  margin-left: 40px;
 }
