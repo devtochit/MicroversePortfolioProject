@@ -289,14 +289,12 @@ li {
 }
 
 .form-section1 {
-  padding-left: 80px;
-  padding-bottom: 20px;
+  padding: 0 14px 0 18px;
 }
 
 .section {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
   gap: 15px;
 }
 
@@ -324,29 +322,28 @@ li {
 }
 
 input {
-  width: 288px;
+  width: 100%;
   height: 52px;
   background: #fff;
   border: 1px solid #dfdfe0;
   box-sizing: border-box;
   border-radius: 4px;
-  margin-left: 18px;
-  margin-bottom: 8px;
   font-size: 10px;
   font-family: "Poppins", sans-serif;
   padding-left: 16px;
   padding-top: 4px;
   padding-bottom: 33px;
+  margin-bottom: 8px;
 }
 
 textarea {
-  width: 288px;
+  width: 100%;
   height: 112px;
   background: #fff;
   border: 1px solid #dfdfe0;
   box-sizing: border-box;
   border-radius: 4px;
-  margin-left: 18px;
+  margin-top: 8px;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   padding-left: 16px;
@@ -386,11 +383,9 @@ textarea {
 
 .personal-contact {
   background-color: #1a2236;
-}
-
-.link-image {
-  width: 25px;
-  padding-right: 70px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
 }
 
 .social-container {
@@ -404,18 +399,24 @@ textarea {
   list-style-type: none;
   justify-content: space-around;
   margin-top: 30.5px;
-  padding-bottom: 20.5px;
+  padding-bottom: 40px;
   width: 80%;
   margin-left: 50px;
 }
 
 .form-btn {
   border: 1px solid #1a2236;
-  padding: 15px 70px 11.53px 60px;
   background-color: #1a2236;
-  margin-top: 15px;
-  width: 70%;
-  margin-left: 15px;
+  color: white;
+  margin: 15px 0 64px 0;
+  width: 100%;
+  height: 44px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
 }
 
 .resume-con {
