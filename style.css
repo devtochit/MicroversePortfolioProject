@@ -14,10 +14,19 @@ li {
   list-style: none;
 }
 
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width: 480px) {
 #toolbar {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 #logoimage {
   width: 111px;
@@ -431,4 +440,6 @@ textarea {
   padding-top: 60px;
   padding-left: 16px;
   margin-left: 40px;
+}
+
 }
