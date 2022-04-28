@@ -537,9 +537,158 @@ color: #1A2236;
  .project-backgroung-img{
    background-image: url(/assert/image_dots.png);
    background-repeat: no-repeat;
-   background-position:22% 2%;
+   background-position:95% 0%;
    margin-top: 100px;
+   width:40%;
  }
+ .p-container-flex{
+   display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+
+ }
+ .p-container{
+    margin-top: 90px;
+    width:60%;
+    height: 465px;
+ 
+  
+ }
+ .project-image{
+  object-fit: contain;
+ 
+
+
+ }
+.projects-info{
+background-image: url(/assert/Rectangle21.png);
+padding-top: 22%;
+background-size: contain;
+background-position: top center;
+  width: 100%;
+}
+.article{
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  background: #1a2236;
+  ;padding-bottom: 4.5%
+
+
+}
+.project-info-name{
+ font-weight: 700;
+ font-size: 60px;
+ line-height: 70%;
+ width: 100%;
+
+}
+.project-languages{
+padding-top: 2%;
+  height: 30px;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+
+
+}
+.button-with-arrow{
+ width: 212px;
+ height: 51px;
+
+  
+}
+.section2{
+  padding-top: 80px;
+  background-image: url(/assert/image-geometry_2.svg); 
+  background-repeat: no-repeat;
+  background-position:57% 1% ;  
+  display: grid;
+  grid-template-columns: 100px;
+  position: relative;
+}
+.sectioni{
+ width: 503px;
+ height: 270px;
+
+
+}
+.undo{
+margin: 0;
+padding: 0;
+}
+.p-container2{
+  width: 500px;
+  height: 270px;
+  margin-left: 986px;
+  position: absolute;
+  padding-top: 77px;
+  background-image: url(/assert/Rectangle214.png);
+  background-position:10% 22% ;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.projects-info2{
+  background-image: url(/assert/Rectangle215.png);
+  background-repeat: no-repeat;
+  padding-bottom: 60%;
+  background-size: contain;
+  background-position: bottom right;
+  width: 100%;
+
+}
+.article2{
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+background: #1a2236;
+;padding-top: 4.5%
+}
+.project-info-name2{
+  font-weight: 700;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 80%;
+  padding: 20px 36px 16px 20px;
+  color: #fff;
+}
+.project-languages2{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  padding: 20px 36px 16px 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  margin-bottom: 20px;
+  list-style: none;
+}
+.project-languages2  li {
+  background: #98dede;
+  padding: 6px 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+}
+.sectionii{
+ width:800px;
+ height: 465px;
+
+}
  .project-container{
    display: none;
  }
@@ -553,6 +702,9 @@ color: #1A2236;
    display: none;
  }
 .project-h1{
+  display: none;
+}
+.project-info{
   display: none;
 }
   }
