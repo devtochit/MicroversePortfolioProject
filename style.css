@@ -102,7 +102,7 @@ display: none;
   grid-template-rows: auto;
 }
 
-.project-heading {
+.project-h1{
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: 400;
@@ -112,7 +112,9 @@ display: none;
   padding-left: 16px;
   padding-bottom: 32px;
 }
-
+.project-heading{
+  display: none;
+}
 .project-container {
   display: flex;
   flex-direction: column;
@@ -506,5 +508,51 @@ color: #1A2236;
   background-color: #1a2236;
   margin-top: 20px;
 
+}
+#Geometry2{
+   display: none;
+}
+.geomentry{
+ background-image: url(/assert/image-geometry_1.png);
+ background-size: cover;
+ width: max-content;
+}
+.divide{
+  display: flex;
+}
+.geomentry1{
+  background-image: url(/assert/image_dots.png);
+
+ }
+ .projects-container{
+   display: grid;
+   grid-template-columns:100px 100px;
+   grid-template-rows: auto;
+ }
+ .project-heading{
+   display: grid;
+ grid-template-rows: 10px ;
+  margin-left: 150px;
+ }
+ .project-backgroung-img{
+   background-image: url(/assert/image_dots.png);
+   background-repeat: no-repeat;
+   background-position:22% 2%;
+   margin-top: 100px;
+ }
+ .project-container{
+   display: none;
+ }
+ #about-container{
+   display: none;
+ }
+ .form-section{
+   display: none;
+ }
+ .personal-contact{
+   display: none;
+ }
+.project-h1{
+  display: none;
 }
   }
