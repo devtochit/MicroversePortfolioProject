@@ -455,6 +455,7 @@ textarea {
     box-shadow: 0px 0.5px 0px #DDDFE6;
     display: flex;
     justify-content: space-around;
+    
   }
     #toolbar a {
       display: none;
@@ -465,10 +466,7 @@ textarea {
       display: flex; 
       flex-direction: row;
       justify-content: space-around;
-      padding-left: 536px;
-      padding-right: 535px;
-      padding-top: 36px;
-      padding-bottom: 36px;
+  
 
     }
     
@@ -480,12 +478,10 @@ textarea {
  .headline{
     display: grid;
     grid-template-columns: min-content;
-    padding: 150px 200px;
+    padding:41px 96px;
 
  }
  .name{
-   
-
 width: 484px;
 height: 220px;
 font-family: 'Playfair Display';
@@ -515,10 +511,13 @@ color: #1A2236;
 .geomentry{
  background-image: url(/assert/image-geometry_1.png);
  background-size: cover;
- width: max-content;
+ width:100%;
+ background-position: 10% 10%;
 }
 .divide{
   display: flex;
+  background-image: url(/assert/image-geometry_2.png);
+  background-size: contain;
 }
 .geomentry1{
   background-image: url(/assert/image_dots.png);
@@ -532,7 +531,7 @@ color: #1A2236;
  .project-heading{
    display: grid;
  grid-template-rows: 10px ;
-  margin-left: 150px;
+  margin-left: 74px;
  }
  .project-backgroung-img{
    background-image: url(/assert/image_dots.png);
@@ -565,7 +564,7 @@ background-image: url(/assert/Rectangle21.png);
 padding-top: 22%;
 background-size: contain;
 background-position: top center;
-  width: 100%;
+
 }
 .article{
     padding: 20px;
@@ -581,8 +580,8 @@ background-position: top center;
 .project-info-name{
  font-weight: 700;
  font-size: 60px;
- line-height: 70%;
- width: 100%;
+ line-height: 90%;
+ width: 80%;
 
 }
 .project-languages{
@@ -603,33 +602,51 @@ padding-top: 2%;
 }
 .section2{
   padding-top: 80px;
-  background-image: url(/assert/image-geometry_2.svg); 
-  background-repeat: no-repeat;
-  background-position:57% 1% ;  
   display: grid;
   grid-template-columns: 100px;
-  position: relative;
+
 }
 .sectioni{
  width: 503px;
  height: 270px;
-
-
 }
+.sectionii{
+  width:806px;
+  height: 465px;
+ }
+ .sectioniii{
+   margin-left: 100%;
+   background-image: url(/assert/image-geometry_2.svg);
+   background-position: 10% 10%;
+  }
+ .sectioniii-background{
+    background-image: url(/assert/image-geometry_3.svg);
+ }
 .undo{
 margin: 0;
 padding: 0;
 }
+.flex1{
+ display: flex;
+ justify-content: space-between;
+ background-image: url(/assert/image-geometry_2.svg); 
+ background-repeat: no-repeat;
+ background-size: 520px;
+ background-position:60% 9% ;  
+}
+.flex2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
 .p-container2{
-  width: 500px;
-  height: 270px;
-  margin-left: 986px;
-  position: absolute;
-  padding-top: 77px;
+ 
+   width: 25%;
+  margin-top: 8%;
   background-image: url(/assert/Rectangle214.png);
-  background-position:10% 22% ;
+  background-position:10% -2% ;
   background-repeat: no-repeat;
-  background-size: contain;
+  padding-top: 2%;
 
 }
 .projects-info2{
@@ -638,7 +655,7 @@ padding: 0;
   padding-bottom: 60%;
   background-size: contain;
   background-position: bottom right;
-  width: 100%;
+
 
 }
 .article2{
@@ -684,16 +701,14 @@ background: #1a2236;
   font-size: 10.3334px;
   line-height: 80%;
 }
-.sectionii{
- width:800px;
- height: 465px;
 
-}
  .project-container{
    display: none;
  }
  #about-container{
-   display: none;
+   display: grid;
+   grid-auto-flow: row
+
  }
  .form-section{
    display: none;
@@ -707,4 +722,21 @@ background: #1a2236;
 .project-info{
   display: none;
 }
-  }
+
+.grid2{
+display: grid;
+grid-template-columns: 300px;
+
+align-items: center;
+padding-left: 15%;
+
+}
+
+
+ .container-list1{
+   flex-direction: column;
+   justify-content: end;
+ padding-left: 100px;
+ }
+    
+}
