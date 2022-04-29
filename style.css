@@ -478,8 +478,7 @@ textarea {
  .headline{
     display: grid;
     grid-template-columns: min-content;
-    padding:41px 96px;
-
+    padding:87px 321px;
  }
  .name{
 width: 484px;
@@ -514,15 +513,19 @@ color: #1A2236;
  width:100%;
  background-position: 10% 10%;
 }
+.geomentry1{
+  background-image: url(/assert/image_dots.png);
+  width: 100%;
+
+ }
 .divide{
   display: flex;
   background-image: url(/assert/image-geometry_2.png);
   background-size: contain;
 }
-.geomentry1{
+.project-image{
   background-image: url(/assert/image_dots.png);
-
- }
+}
  .projects-container{
    display: grid;
    grid-template-columns:100px 100px;
@@ -532,6 +535,7 @@ color: #1A2236;
    display: grid;
  grid-template-rows: 10px ;
   margin-left: 74px;
+  
  }
  .project-backgroung-img{
    background-image: url(/assert/image_dots.png);
@@ -573,7 +577,7 @@ background-position: top center;
     flex-direction: column;
     justify-content: space-between;
   background: #1a2236;
-  ;padding-bottom: 4.5%
+  ;padding-bottom: 7.5%;
 
 
 }
@@ -607,24 +611,25 @@ padding-top: 2%;
 
 }
 .sectioni{
- width: 503px;
+ width: 698px;
  height: 270px;
 }
 .sectionii{
-  width:806px;
+  width:1112px;
   height: 465px;
  }
  .sectioniii{
    margin-left: 100%;
-   background-image: url(/assert/image-geometry_2.svg);
-   background-position: 10% 10%;
+
   }
  .sectioniii-background{
-    background-image: url(/assert/image-geometry_3.svg);
+    
  }
 .undo{
 margin: 0;
 padding: 0;
+
+background-position: 100px;
 }
 .flex1{
  display: flex;
@@ -632,12 +637,13 @@ padding: 0;
  background-image: url(/assert/image-geometry_2.svg); 
  background-repeat: no-repeat;
  background-size: 520px;
- background-position:60% 9% ;  
+ background-position:64% 12% ;  
 }
 .flex2{
   display: flex;
   flex-direction: column;
   margin-top: 10%;
+  margin-left: 4%;
 }
 .p-container2{
  
@@ -710,12 +716,8 @@ background: #1a2236;
    grid-auto-flow: row
 
  }
- .form-section{
-   display: none;
- }
- .personal-contact{
-   display: none;
- }
+ 
+ 
 .project-h1{
   display: none;
 }
@@ -738,5 +740,55 @@ padding-left: 15%;
    justify-content: end;
  padding-left: 100px;
  }
-    
+ .form-flex{
+   display:flex;
+ }
+ .form-section{
+  display: grid;
+  justify-content: center;
+}
+ .form-container{
+   display: flex;
+ }
+ .form-label{
+  position: absolute;
+
+ }
+input {
+  width: 254px;
+  height: 82px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 0px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 16px;
+  padding-top: 20px;
+  padding-bottom: 33px;
+  margin-bottom: 8px;
+}
+textarea {
+  width: 552px;
+  height: 162px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 16px;
+  padding-top: 4px;
+  color: #98dede;
+}
+.form-btn{
+  height: 70px;
+  width: 254px;
+
+
+}
+ .personal-contact{
+   
+}
 }
