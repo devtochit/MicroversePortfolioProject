@@ -313,6 +313,8 @@ li {
   width: 249px;
   height: 50px;
   margin-bottom: 20px;
+  display: flex;
+  margin-left: 320px;
 }
 
 .section-p {
@@ -323,6 +325,7 @@ li {
   line-height: 21px;
   letter-spacing: -0.01em;
   margin-bottom: 32px;
+  margin-left: 270px;
 }
 
 input {
@@ -413,14 +416,16 @@ input {
   background-color: #1a2236;
   color: white;
   margin: 15px 0 64px 0;
-  width: 100%;
-  height: 44px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+  height: 70px;
+  width: 254px;
+  border-radius: 0;
+  margin-left: 130px;
 }
 
 .resume-con {
@@ -640,7 +645,7 @@ input {
 
   .sectioniv-background {
     position: absolute;
-    width:40%;
+    width: 40%;
     height: 60%;
     left: 59%;
     top: 280%;
@@ -821,7 +826,6 @@ input {
     border-radius: 4px;
     font-size: 0;
     font-family: "Poppins", sans-serif;
-   
   }
 
   #form-section {
@@ -838,7 +842,7 @@ input {
 
   .form-divider {
     display: flex;
-    margin-right: 00px;
+    margin-right: 00;
   }
 
   .social-links2 {
@@ -909,20 +913,7 @@ textarea {
   padding-top: 4px;
   color: #98dede;
 }
-.form-btn{
-  height: 70px;
-  width: 254px;
-  border-radius: 0px;
-  margin-left: 130px;
-  
-}
-.form-textarea{
+
+.form-textarea {
   margin-left: 139px;
-}
-.section-h{
-  margin-left: 300px;
-}
-.section-p{
-  display: flex;
-margin-left: 140px;
 }
