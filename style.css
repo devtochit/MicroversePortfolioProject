@@ -14,7 +14,7 @@ li {
   list-style: none;
 }
 
-#toolbar {
+.toolbar {
   display: flex;
   justify-content: space-between;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@ li {
   color: #fff;
 }
 
-#Geometry2 {
+.Geometry2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,7 +86,7 @@ li {
   background: url("images/image_geometry_2.svg") no-repeat;
 }
 
-#projects-container {
+.projects-container {
   display: grid;
   grid-template-rows: auto;
 }
@@ -190,7 +190,7 @@ li {
   padding-left: 2px;
 }
 
-#about-container {
+.about-container {
   display: flex;
   flex-direction: column;
 }
@@ -343,20 +343,7 @@ input {
   margin-bottom: 8px;
 }
 
-/* textarea {
-  width: 100%;
-  height: 112px;
-  background: #fff;
-  border: 1px solid #dfdfe0;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin-top: 8px;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  padding-left: 16px;
-  padding-top: 4px;
-  color: #98dede;
-} */
+
 
 .name-input {
   width: 288px;
@@ -442,7 +429,7 @@ input {
   margin-left: 40px;
 }
 
-#header-nav {
+.header-nav {
   display: none;
 }
 
@@ -451,14 +438,10 @@ input {
     display: none;
   }
 
-  #header-nav {
+  .header-nav {
     display: flex;
     justify-content: center;
-
-    /* width: 100vw; */
     list-style-type: none;
-
-    /* border: 1px solid #dddfe6; */
     padding-top: 40px;
     padding-bottom: 40px;
     width: 1193px;
@@ -468,7 +451,7 @@ input {
     box-shadow: 0 0.5px 0 #dddfe6;
   }
 
-  #header-nav > li > a {
+  .header-nav > li > a {
     text-decoration: none;
     padding: 25px;
     font-family: "Poppins", sans-serif;
@@ -514,7 +497,7 @@ input {
     margin-top: 20px;
   }
 
-  #Geometry2 {
+  .Geometry2 {
     display: none;
   }
 
@@ -770,7 +753,7 @@ input {
     padding-left: 100px;
   }
 
-  #about-container {
+  .about-container {
     display: flex;
     flex-direction: row-reverse;
     margin-left: 160px;
@@ -828,7 +811,7 @@ input {
     font-family: "Poppins", sans-serif;
   }
 
-  #form-section {
+  .form-section {
     display: flex;
     justify-content: center;
     height: 950px;
