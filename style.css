@@ -343,8 +343,6 @@ input {
   margin-bottom: 8px;
 }
 
-
-
 .name-input {
   width: 288px;
   height: 52px;
@@ -515,12 +513,6 @@ input {
 
   .geomentry1 {
     background-image: url(/assert/image_dots.png);
-  }
-
-  .projects-container {
-    display: grid;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: auto;
   }
 
   .project-heading {
@@ -809,13 +801,6 @@ input {
     border-radius: 4px;
     font-size: 0;
     font-family: "Poppins", sans-serif;
-  }
-
-  .form-section {
-    display: flex;
-    justify-content: center;
-    height: 950px;
-    width: 40%;
   }
 
   .form-section1 {
