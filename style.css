@@ -638,7 +638,7 @@ display: none;
     background-position: 0% 0%;
     background-image: url(assert/image-geometry_5.png);
   }
-
+/* 
   .top-img {
     position: relative;
     width: 60%;
@@ -646,7 +646,7 @@ display: none;
     background-size: 150px;
     background-repeat: no-repeat;
     background-image: url(assert/bottom-right.svg);
-  }
+  } */
 
   .sectioniv-background {
     position: absolute;
@@ -659,7 +659,7 @@ display: none;
     background-image: url(assert/image-geometry_3.svg);
   }
 
-  .bottom-img {
+  /* .bottom-img {
     position: absolute;
     width: 60%;
     height: 70%;
@@ -668,7 +668,7 @@ display: none;
     top: 472%;
     background-repeat: no-repeat;
     background-image: url(assert/top-left.svg);
-  }
+  } */
 
   .undo {
     margin: 0;
