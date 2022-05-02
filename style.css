@@ -28,10 +28,8 @@ li {
 }
 
 .menuimage {
-
-    height: 15px;
-    margin: 20px;
-  
+  height: 15px;
+  margin: 20px;
 }
 
 .headline {
@@ -305,7 +303,6 @@ li {
   gap: 15px;
 }
 
-
 .section-h {
   font-family: "Playfair Display", sans-serif;
   font-style: normal;
@@ -443,25 +440,28 @@ textarea {
   padding-bottom: 30.5px;
 }
 
-
-
 .header-nav {
   display: none;
 }
-.flex1{
+
+.flex1 {
   display: none;
 }
-.p-container{
-display: none;
+
+.p-container {
+  display: none;
 }
+
 .section2 {
   display: none;
 }
+
 @media screen  and (min-width: 786px) {
   .logoimage {
     display: none;
   }
-  .menu-img{
+
+  .menu-img {
     display: none;
   }
 
@@ -638,7 +638,8 @@ display: none;
     background-position: 0% 0%;
     background-image: url(assert/image-geometry_5.png);
   }
-/* 
+
+  /*
   .top-img {
     position: relative;
     width: 60%;
@@ -906,7 +907,6 @@ display: none;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   
     padding: 0 150px 0 150px;
     margin: 0;
   }
