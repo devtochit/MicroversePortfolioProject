@@ -830,7 +830,7 @@ textarea {
     border: 1px solid #dfdfe0;
     box-sizing: border-box;
     border-radius: 4px;
-    font-size: 0;
+    font-size: 20px;
     font-family: "Poppins", sans-serif;
   }
 
