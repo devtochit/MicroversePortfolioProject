@@ -28,7 +28,10 @@ li {
 }
 
 .menuimage {
-  display: none;
+
+    height: 15px;
+    margin: 20px;
+  
 }
 
 .headline {
@@ -301,9 +304,8 @@ li {
   flex-direction: column;
   gap: 15px;
 }
-.menu-img{
-  display: flex;
-}
+
+
 .section-h {
   font-family: "Playfair Display", sans-serif;
   font-style: normal;
