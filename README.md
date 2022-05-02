@@ -1,11 +1,11 @@
 <!-- about  Microverse first project -->
 
  # Microverse First project  
-
+<img src="assert/desktop-version-screenshot.png">
 
 > Description of  the project.
 
- This is a demo portfolio website 
+ This is a portfolio website 
 
 ## Built With
 
@@ -13,9 +13,9 @@
 - Css
 - Github flow 
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://officailesse.github.io/MicroversePortfolioProject/)
 
 
 ## Getting Started
