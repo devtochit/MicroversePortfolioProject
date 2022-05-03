@@ -15,7 +15,7 @@
 
 ## Live Demo 
 
-[Live Demo Link](https://officailesse.github.io/MicroversePortfolioProject/)
+[Live Demo Link](https://hedevedup.github.io/MicroversePortfolioProject/)
 
 
 ## Getting Started
