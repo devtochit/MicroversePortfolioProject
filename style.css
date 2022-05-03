@@ -639,6 +639,7 @@ textarea {
     background-image: url(assert/image-geometry_5.png);
   }
 
+  /*
   .top-img {
     position: relative;
     width: 60%;
@@ -646,7 +647,7 @@ textarea {
     background-size: 150px;
     background-repeat: no-repeat;
     background-image: url(assert/bottom-right.svg);
-  }
+  } */
 
   .sectioniv-background {
     position: absolute;
@@ -659,7 +660,7 @@ textarea {
     background-image: url(assert/image-geometry_3.svg);
   }
 
-  .bottom-img {
+  /* .bottom-img {
     position: absolute;
     width: 60%;
     height: 70%;
@@ -668,7 +669,7 @@ textarea {
     top: 472%;
     background-repeat: no-repeat;
     background-image: url(assert/top-left.svg);
-  }
+  } */
 
   .undo {
     margin: 0;
@@ -829,7 +830,7 @@ textarea {
     border: 1px solid #dfdfe0;
     box-sizing: border-box;
     border-radius: 4px;
-    font-size: 0;
+    font-size: 20px;
     font-family: "Poppins", sans-serif;
   }
 
