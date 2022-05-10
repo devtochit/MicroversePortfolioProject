@@ -65,7 +65,7 @@ li {
   overflow: hidden;
   color: rgb(20, 3, 3);
   /* hide the menu above the screen by default */
-  transform: translateX(-100%);
+  transform: translateX(-80%);
   transition: transform 0.2s ease;
   background-image: url("/assert/image_geometry_menu_1.svg");
   background-repeat: no-repeat;
@@ -104,13 +104,13 @@ li {
 
 }
 .sideNav ul li a:hover, .sideNav ul li a:focus {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.755);
 }
 
 .overlay {
   position: fixed;
   display: none;
-  z-index: 100;
+  z-index: 80;
   top: 0;
   left: 0;
   right: 0;
