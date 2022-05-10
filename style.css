@@ -417,7 +417,6 @@ header-nav {
   gap: 15px;
 }
 
-
 .section-h {
   font-family: "Playfair Display", sans-serif;
   font-style: normal;
@@ -555,20 +554,22 @@ textarea {
   padding-bottom: 30.5px;
 }
 
-
-
 .header-nav {
   display: none;
 }
-.flex1{
+
+.flex1 {
   display: none;
 }
-.p-container{
-display: none;
+
+.p-container {
+  display: none;
 }
+
 .section2 {
   display: none;
 }
+
 @media screen  and (min-width: 786px) {
   .logoimage {
     display: none;
@@ -580,6 +581,9 @@ display: none;
     display: none;
   }
   .sideNav{
+    display: none;
+  }
+  .menu-img {
     display: none;
   }
 
@@ -647,7 +651,7 @@ display: none;
   }
 
   .geomentry {
-    background-image: url(/assert/image-geometry_1.png);
+    background-image: url(assert/image-geometry_1.png);
     background-size: cover;
     width: 100%;
     background-position: 10% 10%;
@@ -659,7 +663,7 @@ display: none;
   }
 
   .geomentry1 {
-    background-image: url(/assert/image_dots.png);
+    background-image: url(assert/image_dots.png);
   }
 
   .project-heading {
@@ -669,7 +673,7 @@ display: none;
   }
 
   .project-backgroung-img {
-    background-image: url(/assert/image_dots.png);
+    background-image: url(assert/image_dots.png);
     background-repeat: no-repeat;
     background-position: 95% 0%;
     margin-top: 100px;
@@ -694,7 +698,7 @@ display: none;
   }
 
   .projects-info {
-    background-image: url(/assert/Rectangle21.png);
+    background-image: url(assert/Rectangle21.png);
     padding-top: 22%;
     background-size: contain;
     background-position: top center;
@@ -754,17 +758,18 @@ display: none;
   .sectioniii-background {
     background-repeat: no-repeat;
     background-position: 0% 0%;
-    background-image: url(/assert/image-geometry_5.png);
+    background-image: url(assert/image-geometry_5.png);
   }
 
+  /*
   .top-img {
     position: relative;
     width: 60%;
     height: 60%;
     background-size: 150px;
     background-repeat: no-repeat;
-    background-image: url(/assert/bottom-right.svg);
-  }
+    background-image: url(assert/bottom-right.svg);
+  } */
 
   .sectioniv-background {
     position: absolute;
@@ -774,10 +779,10 @@ display: none;
     top: 280%;
     background-repeat: no-repeat;
     background-size: 400px;
-    background-image: url(/assert/image-geometry_3.svg);
+    background-image: url(assert/image-geometry_3.svg);
   }
 
-  .bottom-img {
+  /* .bottom-img {
     position: absolute;
     width: 60%;
     height: 70%;
@@ -785,8 +790,8 @@ display: none;
     left: 0%;
     top: 472%;
     background-repeat: no-repeat;
-    background-image: url(/assert/top-left.svg);
-  }
+    background-image: url(assert/top-left.svg);
+  } */
 
   .undo {
     margin: 0;
@@ -796,7 +801,7 @@ display: none;
   .flex1 {
     display: flex;
     justify-content: space-between;
-    background-image: url(/assert/image-geometry_2.svg);
+    background-image: url(assert/image-geometry_2.svg);
     background-repeat: no-repeat;
     background-size: 520px;
     background-position: 60% 9%;
@@ -811,14 +816,14 @@ display: none;
   .p-container2 {
     width: 25%;
     margin-top: 8%;
-    background-image: url(/assert/Rectangle214.png);
+    background-image: url(assert/Rectangle214.png);
     background-position: 10% -2%;
     background-repeat: no-repeat;
     padding-top: 2%;
   }
 
   .projects-info2 {
-    background-image: url(/assert/Rectangle215.png);
+    background-image: url(assert/Rectangle215.png);
     background-repeat: no-repeat;
     padding-bottom: 60%;
     background-size: contain;
@@ -947,7 +952,7 @@ display: none;
     border: 1px solid #dfdfe0;
     box-sizing: border-box;
     border-radius: 4px;
-    font-size: 0;
+    font-size: 20px;
     font-family: "Poppins", sans-serif;
   }
 
@@ -977,7 +982,7 @@ display: none;
 
   .last-img {
     margin-left: 1100px;
-    background-image: url(/assert/bottom-right.svg);
+    background-image: url(assert/bottom-right.svg);
     background-size: contain;
     height: 250.84px;
     width: 250.75px;
@@ -1024,7 +1029,6 @@ display: none;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   
     padding: 0 150px 0 150px;
     margin: 0;
   }
