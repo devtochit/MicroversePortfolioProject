@@ -17,14 +17,14 @@
 
 <body>
     <header class="toolbar">
-        <a href="index.html"><img class="logoimage" src="assert/image_geometry_1.png" alt="My portfolio's logo" /></a>
+        <a href="index.html"><img id="logoimage" src="assert/image_geometry_1.png" alt="My portfolio's logo" /></a>
         <nav>
             <!-- Desktop nav-link starts-->
             <ul class="header-nav">
-                <li><a href="index.html">Hello</a></li>
-                <li><a href="index.html">Portfolio</a></li>
-                <li><a href="index.html">About</a></li>
-                <li><a href="index.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#projects-container">Portfolio</a></li>
+                <li><a href="#about-container">About</a></li>
+                <li><a href="#footer">Contact</a></li>
             </ul>
             <!--  section for mobile nav bar -->
             <button class="ham">
@@ -41,10 +41,10 @@
                 </svg>
             </button>
             <ul>
-                <li><a class="menuLink" href="#home">Home</a></li>
-                <li><a class="menuLink" href="#profile">Profile</a></li>
-                <li><a class="menuLink" href="#about">About</a></li>
-                <li><a class="menuLink" href="#contacts">Contacts</a></li>
+                <li><a class="menuLink" href="#logoimage">Home</a></li>
+                <li><a class="menuLink" href="#projects-container">Portfolio</a></li>
+                <li><a class="menuLink" href="#about-container">About</a></li>
+                <li><a class="menuLink" href="#footer">Contacts</a></li>
             </ul>
         </nav>
 
@@ -67,7 +67,7 @@
     </div>
 
 
-    <section class="projects-container">
+    <section id="projects-container">
 
         <h2 class="project-h1"> Projects </h2>
         <div class="p-container-flex">
@@ -221,7 +221,7 @@
 
 
 
-    <section class="about-container">
+    <section id="about-container">
         <div class="sub-about">
             <h4 class="about-heading">About</h4>
             <p class="content">

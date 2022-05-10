@@ -24,20 +24,22 @@ li {
   background-size: contain;
 }
 
-.logoimage {
+#logoimage {
   width: 111px;
   height: 74px;
 }
 
 .ham{
   position: relative;
-    width: 2rem;
+    width: 3rem;
     height: 2rem;
+    top: 1rem;
+    right: 1rem;
     margin-left: 0.5rem;
     background: none;
     border: none;
     cursor: pointer;
-    color: rgb(173, 39, 39);
+    color: rgb(26, 23, 23);
 }
 .menuX {
   position: absolute;
@@ -65,7 +67,7 @@ li {
   overflow: hidden;
   color: rgb(20, 3, 3);
   /* hide the menu above the screen by default */
-  transform: translateX(-80%);
+  transform: translateX(-100%);
   transition: transform 0.2s ease;
   background-image: url("/assert/image_geometry_menu_1.svg");
   background-repeat: no-repeat;
@@ -96,7 +98,6 @@ li {
   color: rgb(31, 3, 3);
   padding-bottom: 10px;
   margin-top: rem;
-  border-bottom: 2px solid black;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
@@ -104,13 +105,13 @@ li {
 
 }
 .sideNav ul li a:hover, .sideNav ul li a:focus {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.755);
+  border-bottom: 2px solid rgba(14, 1, 1, 0.755)
 }
 
 .overlay {
   position: fixed;
   display: none;
-  z-index: 80;
+  z-index: 1;
   top: 0;
   left: 0;
   right: 0;
@@ -201,7 +202,7 @@ header-nav {
   background: url("images/image_geometry_2.svg") no-repeat;
 }
 
-.projects-container {
+#projects-container {
   display: grid;
   grid-template-rows: auto;
 }
@@ -305,7 +306,7 @@ header-nav {
   padding-left: 2px;
 }
 
-.about-container {
+#about-container {
   display: flex;
   flex-direction: column;
 }
@@ -571,7 +572,7 @@ textarea {
 }
 
 @media screen  and (min-width: 786px) {
-  .logoimage {
+  #logoimage {
     display: none;
   }
   .hamburger{
@@ -898,7 +899,7 @@ textarea {
     padding-left: 100px;
   }
 
-  .about-container {
+  #about-container {
     display: flex;
     flex-direction: row-reverse;
     margin-left: 160px;
