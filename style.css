@@ -9,9 +9,11 @@ body {
   background-color: #fff;
   margin: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 li {
   list-style: none;
 }
@@ -24,21 +26,24 @@ li {
   background-size: contain;
 }
 
-.logoimage {
+#logoimage {
   width: 111px;
   height: 74px;
 }
 
-.ham{
+.ham {
   position: relative;
-    width: 2rem;
-    height: 2rem;
-    margin-left: 0.5rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: rgb(173, 39, 39);
+  width: 3rem;
+  height: 2rem;
+  top: 1rem;
+  right: 1rem;
+  margin-left: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(26, 23, 23);
 }
+
 .menuX {
   position: absolute;
   top: 1rem;
@@ -52,7 +57,6 @@ li {
   color: rgb(14, 1, 1);
 }
 
- 
 .sideNav {
   position: fixed;
   top: 0;
@@ -64,18 +68,18 @@ li {
   height: 80vh;
   overflow: hidden;
   color: rgb(20, 3, 3);
+
   /* hide the menu above the screen by default */
   transform: translateX(-100%);
   transition: transform 0.2s ease;
-  background-image: url("/assert/image_geometry_menu_1.svg");
+  background-image: url("assert/image_geometry_menu_1.svg");
   background-repeat: no-repeat;
-
 }
 
 .showNav {
   transform: translateX(0);
 }
- 
+
 .sideNav ul {
   width: 100%;
   height: 91%;
@@ -86,31 +90,30 @@ li {
   align-items: center;
   padding-top: 4rem;
   gap: 30px;
-  background-image: url("/assert/image_geometry_menu_2.svg");
+  background-image: url("assert/image_geometry_menu_2.svg");
   background-repeat: no-repeat;
-  background-position:0% 100%;
-
+  background-position: 0% 100%;
 }
+
 .sideNav ul li a {
   display: block;
   color: rgb(31, 3, 3);
   padding-bottom: 10px;
   margin-top: rem;
-  border-bottom: 2px solid black;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
-
-
 }
-.sideNav ul li a:hover, .sideNav ul li a:focus {
-  border-bottom: 2px solid white;
+
+.sideNav ul li a:hover,
+.sideNav ul li a:focus {
+  border-bottom: 2px solid rgba(14, 1, 1, 0.755);
 }
 
 .overlay {
   position: fixed;
   display: none;
-  z-index: 100;
+  z-index: 1;
   top: 0;
   left: 0;
   right: 0;
@@ -118,32 +121,10 @@ li {
   background: transparent;
   width: 300px;
   height: 50vh;
-
-
 }
 
 .showOverlay {
   display: block;
-}
-
-
-
-
-
-
-header-nav {
-  position: fixed;
-  transform: translateY(-100%);
-  transition: transform 0.2s;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 99;
-  background: black;
-  color: white;
-  list-style: none;
-  padding-top: 4rem;
 }
 
 .headline {
@@ -201,7 +182,7 @@ header-nav {
   background: url("images/image_geometry_2.svg") no-repeat;
 }
 
-.projects-container {
+#projects-container {
   display: grid;
   grid-template-rows: auto;
 }
@@ -305,7 +286,7 @@ header-nav {
   padding-left: 2px;
 }
 
-.about-container {
+#about-container {
   display: flex;
   flex-direction: column;
 }
@@ -571,18 +552,22 @@ textarea {
 }
 
 @media screen  and (min-width: 786px) {
-  .logoimage {
+  #logoimage {
     display: none;
   }
-  .hamburger{
+
+  .hamburger {
     display: none;
   }
-  .ham{
+
+  .ham {
     display: none;
   }
-  .sideNav{
+
+  .sideNav {
     display: none;
   }
+
   .menu-img {
     display: none;
   }
@@ -898,7 +883,7 @@ textarea {
     padding-left: 100px;
   }
 
-  .about-container {
+  #about-container {
     display: flex;
     flex-direction: row-reverse;
     margin-left: 160px;
