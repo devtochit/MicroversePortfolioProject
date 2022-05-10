@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Material Icon CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -24,9 +26,28 @@
                 <li><a href="index.html">About</a></li>
                 <li><a href="index.html">Contact</a></li>
             </ul>
-            <img class="menu-img" src="assert/ic_menu.png" alt="menu icon" id="menuimage" />
-
+            <!--  section for mobile nav bar -->
+            <button class="ham">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
         </nav>
+        <div class="overlay"></div>
+        <nav class="sideNav">
+            <button class="menuX">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <ul>
+                <li><a class="menuLink" href="#home">Home</a></li>
+                <li><a class="menuLink" href="#profile">Profile</a></li>
+                <li><a class="menuLink" href="#about">About</a></li>
+                <li><a class="menuLink" href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+
     </header>
 
     <div class="divide">
@@ -37,16 +58,13 @@
                 feature or website. Taka a look of my works. If you like what you see
                 and have a project you need coded, don't hesitate and contact me.
             </p>
-            <button type="button" class="btn profilelin2">
+            <button type="button" class="btn profilelin">
                 <span class="toprofile">Start collaboration</span>
             </button>
         </section>
         <div class="geomentry"></div>
 
     </div>
-
-
-
 
 
     <section class="projects-container">
@@ -321,6 +339,8 @@
             </ul>
         </div>
     </footer>
+
 </body>
+<script src="script.js"></script>
 
 </html>
