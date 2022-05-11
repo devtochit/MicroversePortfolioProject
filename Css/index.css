@@ -1,12 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap");
 @import url("./Modal.css");
+
+
+
+
+
+:root{
+  --white-color: #fff;
+}
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #fff;
+  background-color: var(--white-color);
   margin: 0;
 }
 
@@ -64,15 +72,16 @@ li {
   bottom: 0;
   z-index: 101;
   background: #fff;
-  width: 300px;
-  height: 80vh;
+  width: 400px;
+  height: 90vh;
   overflow: hidden;
   color: rgb(20, 3, 3);
 
   /* hide the menu above the screen by default */
   transform: translateX(-100%);
   transition: transform 0.2s ease;
-  background-image: url("assert/image_geometry_menu_1.svg");
+  background-image: url("/assert/image_geometry_menu_1.svg");
+
   background-repeat: no-repeat;
 }
 
@@ -90,7 +99,7 @@ li {
   align-items: center;
   padding-top: 4rem;
   gap: 30px;
-  background-image: url("assert/image_geometry_menu_2.svg");
+  background-image: url("/assert/image_geometry_menu_2.svg");
   background-repeat: no-repeat;
   background-position: 0% 100%;
 }
@@ -547,9 +556,6 @@ textarea {
   display: none;
 }
 
-.section2 {
-  display: none;
-}
 
 @media screen  and (min-width: 786px) {
   #logoimage {
@@ -636,7 +642,7 @@ textarea {
   }
 
   .geomentry {
-    background-image: url(assert/image-geometry_1.png);
+    background-image: url(/assert/image-geometry_1.png);
     background-size: cover;
     width: 100%;
     background-position: 10% 10%;
@@ -648,7 +654,7 @@ textarea {
   }
 
   .geomentry1 {
-    background-image: url(assert/image_dots.png);
+    background-image: url(/assert/image_dots.png);
   }
 
   .project-heading {
@@ -658,7 +664,7 @@ textarea {
   }
 
   .project-backgroung-img {
-    background-image: url(assert/image_dots.png);
+    background-image: url(/assert/image_dots.png);
     background-repeat: no-repeat;
     background-position: 95% 0%;
     margin-top: 100px;
@@ -683,7 +689,7 @@ textarea {
   }
 
   .projects-info {
-    background-image: url(assert/Rectangle21.png);
+    background-image: url(/assert/Rectangle21.png);
     padding-top: 22%;
     background-size: contain;
     background-position: top center;
@@ -743,7 +749,7 @@ textarea {
   .sectioniii-background {
     background-repeat: no-repeat;
     background-position: 0% 0%;
-    background-image: url(assert/image-geometry_5.png);
+    background-image: url(/assert/image-geometry_5.png);
   }
 
   /*
@@ -764,7 +770,7 @@ textarea {
     top: 280%;
     background-repeat: no-repeat;
     background-size: 400px;
-    background-image: url(assert/image-geometry_3.svg);
+    background-image: url(/assert/image-geometry_3.svg);
   }
 
   /* .bottom-img {
@@ -786,7 +792,7 @@ textarea {
   .flex1 {
     display: flex;
     justify-content: space-between;
-    background-image: url(assert/image-geometry_2.svg);
+    background-image: url(/assert/image-geometry_2.svg);
     background-repeat: no-repeat;
     background-size: 520px;
     background-position: 60% 9%;
@@ -801,14 +807,14 @@ textarea {
   .p-container2 {
     width: 25%;
     margin-top: 8%;
-    background-image: url(assert/Rectangle214.png);
+    background-image: url(/assert/Rectangle214.png);
     background-position: 10% -2%;
     background-repeat: no-repeat;
     padding-top: 2%;
   }
 
   .projects-info2 {
-    background-image: url(assert/Rectangle215.png);
+    background-image: url(/assert/Rectangle215.png);
     background-repeat: no-repeat;
     padding-bottom: 60%;
     background-size: contain;
@@ -904,7 +910,7 @@ textarea {
   .section-about {
     display: grid;
     grid-template: auto auto/auto auto;
-    background-image: url(assert/image_dots_with_teal.svg);
+    background-image: url(/assert/image_dots_with_teal.svg);
     background-repeat: no-repeat;
     background-position: bottom right;
   }
@@ -967,7 +973,7 @@ textarea {
 
   .last-img {
     margin-left: 1100px;
-    background-image: url(assert/bottom-right.svg);
+    background-image: url(/assert/bottom-right.svg);
     background-size: contain;
     height: 250.84px;
     width: 250.75px;

@@ -1,0 +1,131 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    z-index: 5;
+    background: rgba(255, 255, 255, 0.544);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    width: 10%;
+    padding: 0 1.5rem;
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header {
+    margin: 1rem 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(4, 2, 23, 0.48);
+    mix-blend-mode: multiply;
+    pointer-events: none;
+  }
+  
+  .modal-img {
+    display: block;
+    width: 10%;
+    margin: 0 auto;
+  }
+  
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-btn {
+    /* background-color: var(--purple-color); */
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--white-color);
+    padding: 0.8rem;
+    transition: all 500ms ease-in;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .modal-text {
+    width: 10%;
+    padding: 1rem 1.5rem 0;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  .modal-icon {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-left: 0.7rem;
+    width: 0.7em;
+  }
+  
+  @media (min-width: 768px) {
+    .modal {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0);
+      transition: 200ms ease-in-out;
+      border: 1px solid var(--white-color);
+      border-radius: 5px;
+      z-index: 5;
+      background: rgba(255, 255, 255, 0.5);
+      box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+      width: 650px;
+      padding: 0 1.5rem;
+    }
+  
+    .btn-container {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  
