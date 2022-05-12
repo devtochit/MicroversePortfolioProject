@@ -115,7 +115,7 @@ const closeModalButtons = document.querySelectorAll('[data-close-button]');
 const overlayy = document.getElementById('overlayy');
 const modalContent = document.querySelector('.modalData');
 
-const openModal = (modal) => {
+let openModal = (modal) => {
   if (modal == null) return;
   modal.classList.add('active');
   overlayy.classList.add('active');
@@ -170,6 +170,7 @@ openModalButtons.forEach((button) => {
             <li><a href="">prevous page</a></li </ul>
     </div>
       </div>`;
+    const modal = document.querySelector(button.dataset.modalTarget);
     openModal(modal);
   });
 });
