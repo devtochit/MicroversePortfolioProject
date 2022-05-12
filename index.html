@@ -12,7 +12,7 @@
     <!-- Material Icon CDN -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Css/index.css" />
 </head>
 
 <body>
@@ -84,7 +84,7 @@
                             <li>Ruby on Rails</li>
                             <li>Javascript</li>
                         </ul>
-                        <button type="button" class="btn button-with-arrow">
+                        <button type="button" class=" button-with-arrow" data-modal-target="#modal">
                             See this project
                             <img src="assert/ic_arrow_right.png" alt="a forward icon" />
                         </button>
@@ -112,9 +112,9 @@
                             <li>Ruby on Rails</li>
                             <li>+1</li>
                         </ul>
-                        <button type="button" class="btn button-with-arrow">
+                        <button type="button" class="btn button-with-arrow" data-modal-target="#modal">
                             See this project
-                            <img src="assert/ic_arrow_right.png" alt="a forward icon" />
+                            <img src=" assert/ic_arrow_right.png" alt="a forward icon" />
                         </button>
                     </div>
 
@@ -125,101 +125,9 @@
 
 
     <div class="section2">
-        <div class="project-container">
-            <img src="assert/Rectangle21.png" class="project-image" alt="laptop" />
-            <div class="project-info">
-                <p class="project-info-name">Project name goes here</p>
-                <ul class="project-languages">
-                    <li>HTML/CSS</li>
-                    <li>Ruby on Rails</li>
-                    <li>Javascript</li>
-                </ul>
-                <button type="button" class="btn button-with-arrow">
-                    See this project
-                    <img src="assert/ic_arrow_right.png" alt="a forward icon" />
-                </button>
-            </div>
-        </div>
-    </div>
-    <div class="project-container">
-        <div class="project-info">
-            <p class="project-info-name">Project name goes here</p>
-            <ul class="project-languages">
-                <li>HTML/CSS</li>
-                <li>Ruby on Rails</li>
-                <li>Javascript</li>
-            </ul>
-            <button type="button" class="btn button-with-arrow">
-                See this project
-                <img src="assert/ic_arrow_right.png" alt="a forward icon" />
-            </button>
-        </div>
-    </div>
-    <div class="project-container">
-        <img src="assert/Rectangle212.png" class="project-image" alt="laptop" />
-        <div class="project-info">
-            <p class="project-info-name">Project name goes here</p>
-            <ul class="project-languages">
-                <li>HTML/CSS</li>
-                <li>Ruby on Rails</li>
-                <li>Javascript</li>
-            </ul>
-            <button type="button" class="btn button-with-arrow">
-                See this project
-                <img src="assert/ic_arrow_right.png" alt="a forward icon" />
-            </button>
-        </div>
-    </div>
-    <div class="project-container">
-        <img src="assert/Rectangle213.png" class="project-image" alt="laptop" />
-        <div class="project-info">
-            <p class="project-info-name">Project name goes here</p>
-            <ul class="project-languages">
-                <li>HTML/CSS</li>
-                <li>Ruby on Rails</li>
-                <li>Javascript</li>
-            </ul>
-            <button type="button" class="btn button-with-arrow">
-                See this project
-                <img src="assert/ic_arrow_right.png" alt="a forward icon" />
-            </button>
-        </div>
-    </div>
-    <div class="project-container">
-        <img src="assert/Rectangle214.png" class="project-image" alt="laptop" />
-        <div class="project-info">
-            <p class="project-info-name">Project name goes here</p>
-            <ul class="project-languages">
-                <li>HTML/CSS</li>
-                <li>Ruby on Rails</li>
-                <li>Javascript</li>
-            </ul>
-            <button type="button" class="btn button-with-arrow">
-                See this project
-                <img src="assert/ic_arrow_right.png" alt="a forward icon" />
-            </button>
-        </div>
-    </div>
-    <div class="project-container">
-        <img src="assert/Rectangle215.png" class="project-image" alt="laptop" />
-        <div class="project-info">
-            <p class="project-info-name">Project name goes here</p>
-            <ul class="project-languages">
-                <li>HTML/CSS</li>
-                <li>Ruby on Rails</li>
-                <li>Javascript</li>
-            </ul>
-            <button type="button" class="btn button-with-arrow">
-                See this project
-                <img src="assert/ic_arrow_right.png" alt="a forward icon" />
-            </button>
-        </div>
-    </div>
 
 
-
-
-
+    </div>
 
     <section id="about-container">
         <div class="sub-about">
@@ -342,7 +250,21 @@
             </ul>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <span class="title">My Projects</span>
+            <button type="button" data-close-button class="close-button menuX">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <div class="modalData"></div>
+
+    </div>
+    <div id="overlayy"></div>
+    <script src="js/script.js"></script>
+    <script src="js/newmodal.js"></script>
 </body>
 
 

@@ -5,6 +5,8 @@ const menuX = document.querySelector(".menuX")
 const menuItems = document.querySelectorAll(".menuLink")
 
 
+
+
 menuItems.forEach(menuItem => {
     menuItem.addEventListener("click", toggleHambuger)
 })
@@ -20,3 +22,10 @@ function toggleHambuger() {
     overlay.classList.toggle('showOverlay')
     sideNav.classList.toggle('showNav')
 }
+
+
+
+
+
+
+

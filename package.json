@@ -18,6 +18,7 @@
     },
     "homepage": "https://github.com/officailesse/MicroverseProject-#readme",
     "devDependencies": {
+        "eslint": "^8.15.0",
         "hint": "^6.1.11",
         "stylelint": "^13.13.1",
         "stylelint-config-standard": "^21.0.0",
