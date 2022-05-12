@@ -684,7 +684,7 @@ textarea {
   }
 
   .projects-info {
-    background-image: url(/assert/Rectangle21.png);
+    background-image: url(../assert/Rectangle21.png);
     padding-top: 22%;
     background-size: contain;
     background-position: top center;
@@ -802,14 +802,14 @@ textarea {
   .p-container2 {
     width: 25%;
     margin-top: 8%;
-    background-image: url(/assert/Rectangle214.png);
+    background-image: url(../assert/Rectangle214.png);
     background-position: 10% -2%;
     background-repeat: no-repeat;
     padding-top: 2%;
   }
 
   .projects-info2 {
-    background-image: url(/assert/Rectangle215.png);
+    background-image: url(../assert/Rectangle215.png);
     background-repeat: no-repeat;
     padding-bottom: 60%;
     background-size: contain;
@@ -905,7 +905,7 @@ textarea {
   .section-about {
     display: grid;
     grid-template: auto auto/auto auto;
-    background-image: url(/assert/image_dots_with_teal.svg);
+    background-image: url(../assert/image_dots_with_teal.svg);
     background-repeat: no-repeat;
     background-position: bottom right;
   }
