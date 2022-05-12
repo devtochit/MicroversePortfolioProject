@@ -637,7 +637,7 @@ textarea {
   }
 
   .geomentry {
-    background-image: url(/assert/image-geometry_1.png);
+    background-image: url(../assert/image-geometry_1.png);
     background-size: cover;
     width: 100%;
     background-position: 10% 10%;
@@ -744,7 +744,7 @@ textarea {
   .sectioniii-background {
     background-repeat: no-repeat;
     background-position: 0% 0%;
-    background-image: url(/assert/image-geometry_5.png);
+    background-image: url(../assert/image-geometry_5.png);
   }
 
   /*
@@ -765,7 +765,7 @@ textarea {
     top: 280%;
     background-repeat: no-repeat;
     background-size: 400px;
-    background-image: url(/assert/image-geometry_3.svg);
+    background-image: url(../assert/image-geometry_3.svg);
   }
 
   /* .bottom-img {
@@ -787,7 +787,7 @@ textarea {
   .flex1 {
     display: flex;
     justify-content: space-between;
-    background-image: url(/assert/image-geometry_2.svg);
+    background-image: url(../assert/image-geometry_2.svg);
     background-repeat: no-repeat;
     background-size: 520px;
     background-position: 60% 9%;
