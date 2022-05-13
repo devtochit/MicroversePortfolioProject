@@ -959,14 +959,14 @@ textarea {
   .form-container.success input {
     border-color: #92dcdc;
   }
-  #error-message{
-    display: grid;  
-    place-items: center;
-     color: #e2505c;
-     font-family:"Poppins", sans-serif;
-     font-weight: 900;
-     border-radius: 10px;
 
+  #error-message {
+    display: grid;
+    place-items: center;
+    color: #e2505c;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    border-radius: 10px;
   }
 
   .form-section1 {

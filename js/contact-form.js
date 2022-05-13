@@ -36,11 +36,10 @@ const message = function (input) {
     return errorMessage.charAt(0).toUpperCase() + errorMessage.slice(1);
 }
 
-const showError = (input, message) => {
+const showError = (input, ) => {
     let formControl = input.parentElement;
     formControl.classList = ' form-container error';
-    const small = formControl.querySelector('small')
-    // small.innerText = message;
+     
 }
 const showSuccess = (input) => {
     let formControl = input.parentElement;
