@@ -83,5 +83,7 @@ form.addEventListener('submit', (e) => {
     checkLength(username, 5, 25)
     checkLength(textBox, 5, 45)
 
-
+    if (checkRequired) {
+        form.submit();
+    }
 })
