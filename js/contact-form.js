@@ -2,6 +2,7 @@ const form = document.querySelector('.formidable');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
 const textBox = document.getElementById('message');
+const errorMessage = document.getElementById("error-message")
 const inputArr = [username, email, textBox]
 
 
@@ -13,22 +14,20 @@ const checkEmail = function (input) {
     const emailVal = input.value.trim();
     if (!isRequired(emailVal)) {
         showError(input, 'Email cannot be blank.');
-
+        errorMessage.innerHTML = 'Email cannot be blank';
     } else if (!re.test(emailVal)) {
         showError(input, 'Email is not valid.');
-
+        errorMessage.innerHTML = 'Email is not valid ';
     } else if (input.value !== email.value.toLowerCase()) {
         showError(input, 'Email must be in lowercase');
-
+        errorMessage.innerHTML = 'Email must be in lowercase';
     } else {
         showSuccess(input);
         valid = true;
+
     }
     return valid;
 }
-
-
-
 
 
 
@@ -41,7 +40,7 @@ const showError = (input, message) => {
     let formControl = input.parentElement;
     formControl.classList = ' form-container error';
     const small = formControl.querySelector('small')
-    small.innerText = message;
+    // small.innerText = message;
 }
 const showSuccess = (input) => {
     let formControl = input.parentElement;
@@ -86,57 +85,3 @@ form.addEventListener('submit', (e) => {
 
 
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
