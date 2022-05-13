@@ -470,6 +470,7 @@ form {
   display: flex;
   flex-direction: column;
   padding-top: 30px;
+  gap: 10px;
 }
 
 form button {
@@ -941,11 +942,23 @@ textarea {
     font-size: 20px;
     font-family: "Poppins", sans-serif;
   }
-  .form-container small,
-#error-message {
-  color: red;
-}
 
+  .form-container small {
+    color: red;
+    visibility: hidden;
+  }
+
+  .form-container.error small {
+    visibility: visible;
+  }
+
+  .form-container.error input {
+    border-color: #e2505c;
+  }
+
+  .form-container.success input {
+    border-color: #92dcdc;
+  }
 
   .form-section1 {
     display: grid;
@@ -987,15 +1000,11 @@ textarea {
     align-items: center;
   }
 
-  .form h1 {
-    padding-bottom: 40px;
-  }
-
   form {
     width: 545px;
   }
 
-  form input,
+
   textarea {
     width: 100%;
   }
@@ -1003,6 +1012,10 @@ textarea {
   form button {
     width: 254px;
     margin-bottom: 50px;
+  }
+
+  .form h1 {
+    padding-bottom: 40px;
   }
 
   #contact-form-section div.form h1 {
