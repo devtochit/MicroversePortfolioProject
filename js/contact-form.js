@@ -1,7 +1,7 @@
 const form = document.querySelector('.formidable');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
-const textBox = document.getElementById('message');
+const MessageBox = document.getElementById('message');
 const inputArr = [ username,email,textBox ]
 
 
@@ -59,9 +59,9 @@ const isEmailValid = function(input){
 
 
  form.addEventListener('submit',(e)=>{
-e.preventDefault();
-checkRequired(inputArr)
-isEmailValid (email) 
+    e.preventDefault();
+    checkRequired(inputArr)
+    isEmailValid (email) 
 
  })
 
