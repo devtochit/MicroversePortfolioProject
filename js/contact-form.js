@@ -9,7 +9,6 @@ const inputArr = [username, email, textBox]
 const isRequired = (value) => value !== '';
 const checkEmail = function (input) {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
     let valid = false;
     const emailVal = input.value.trim();
     if (!isRequired(emailVal)) {
@@ -36,10 +35,10 @@ const message = function (input) {
     return errorMessage.charAt(0).toUpperCase() + errorMessage.slice(1);
 }
 
-const showError = (input, ) => {
+const showError = (input,) => {
     let formControl = input.parentElement;
     formControl.classList = ' form-container error';
-     
+
 }
 const showSuccess = (input) => {
     let formControl = input.parentElement;
@@ -78,11 +77,13 @@ const checkLength = function (input, min, max) {
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     checkRequired(inputArr)
-    checkEmail(email);
-    checkLength(username, 5, 25)
-    checkLength(textBox, 5, 45)
-
-    if (checkRequired) {
+    const isEmail = checkEmail(email);
+    const isUsernameValid = checkLength(username, 5, 25)
+    const isTextBox = checkLength(textBox, 5, 45)
+    const isValid = isEmail
+    if (isValid) {
         form.submit();
     }
+
+
 })

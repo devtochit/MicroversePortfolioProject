@@ -509,6 +509,31 @@ textarea {
   padding-left: 16px;
   padding-top: 4px;
 }
+.form-container small {
+  color: red;
+  visibility: hidden;
+}
+
+.form-container.error small {
+  visibility: visible;
+}
+
+.form-container.error input {
+  border-color: #e2505c;
+}
+
+.form-container.success input {
+  border-color: #92dcdc;
+}
+
+#error-message {
+  display: grid;
+  place-items: center;
+  color: #e2505c;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  border-radius: 10px;
+}
 
 #button {
   margin-left: 18px;
@@ -943,31 +968,6 @@ textarea {
     font-family: "Poppins", sans-serif;
   }
 
-  .form-container small {
-    color: red;
-    visibility: hidden;
-  }
-
-  .form-container.error small {
-    visibility: visible;
-  }
-
-  .form-container.error input {
-    border-color: #e2505c;
-  }
-
-  .form-container.success input {
-    border-color: #92dcdc;
-  }
-
-  #error-message {
-    display: grid;
-    place-items: center;
-    color: #e2505c;
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    border-radius: 10px;
-  }
 
   .form-section1 {
     display: grid;
