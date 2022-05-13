@@ -78,8 +78,8 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     checkRequired(inputArr)
     const isEmail = checkEmail(email);
-    const isUsernameValid = checkLength(username, 5, 25)
-    const isTextBox = checkLength(textBox, 5, 45)
+    checkLength(username, 5, 25)
+    checkLength(textBox, 5, 45)
     const isValid = isEmail
     if (isValid) {
         form.submit();
