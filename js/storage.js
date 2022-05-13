@@ -1,30 +1,29 @@
+const formName = document.getElementById('username');
+const formText = document.getElementById('message');
+const submitBtn = document.getElementById('submit-btn');
 
-const nameField = formStorage.elements.name;
-const emailField = formStorage.elements.email;
-const messageField = formStorage.elements.message;
-const formStorage = ''
-function dataStorage() {
-    const userData = {
-        name: nameField.value,
-        emailAddress: emailField.value,
-        message: messageField.value,
+submitBtn.addEventListener('click', () => {
+    const data = {
+        name: formName.value,
+        email: mail.value,
+        message: formText.value,
     };
-    localStorage.setItem('formData', JSON.stringify(userData));
-}
+    localStorage.setItem('userData', JSON.stringify(data));
+});
 
-function inputValues() {
-    const formData = JSON.parse(localStorage.getItem('formData'));
-    if (formData !== null) {
-        nameField.value = formData.name;
-        emailField.value = formData.emailAddress;
-        messageField.value = formData.message;
-    }
-}
+window.addEventListener('load', () => {
+    const myData = JSON.parse(localStorage.getItem('userData'));
 
-window.addEventListener('load', inputValues);
+    formName.value = myData.name;
+    formText.value = myData.message;
+    mail.value = myData.email;
+});
 
-for (let n = 0; n < formStorage.length; n += 1) {
-    formStorage[n].addEventListener('change', () => {
-        dataStorage();
-    });
-}
+const $resetForm = document.getElementById('reset-btn');
+
+$resetForm.addEventListener('click', () => {
+    localStorage.clear();
+    formName.value = '';
+    mail.value = '';
+    formText.value = '';
+});
