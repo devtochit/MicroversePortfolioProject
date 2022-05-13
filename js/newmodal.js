@@ -157,11 +157,11 @@ openModalButtons.forEach((button) => {
        
         <div class="btn-container">
           <a href="${projects[foundIndex].live_version}" type="button" class="modal-btn">
-            See Live Link <img src="/assert/ic_link.svg" alt="Icon" title="Img" class="modal-icon">
+            See Live Link <img src="assert/ic_link.svg" alt="Icon" title="Img" class="modal-icon">
           </a>
           <a href="${projects[foundIndex].source}" type="button" class="modal-btn">
             See Source Code
-            <img src="/assert/Group.png" alt="Icon" title="Img" class="modal-icon">
+            <img src="assert/Group.png" alt="Icon" title="Img" class="modal-icon">
           </a>
         </div>
         <div class="modal_last_button">
