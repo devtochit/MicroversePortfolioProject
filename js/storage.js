@@ -1,8 +1,8 @@
-const form = document.querySelector('.formidable');
+
 const nameField = formStorage.elements.name;
 const emailField = formStorage.elements.email;
 const messageField = formStorage.elements.message;
-
+const formStorage = ''
 function dataStorage() {
     const userData = {
         name: nameField.value,
