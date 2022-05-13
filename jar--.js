@@ -1,5 +1,5 @@
-const form = document.querySelector('.formidable');
-const fullName = document.querySelector('#username');
+const form = document.querySelector('.form');
+const fullName = document.querySelector('#name');
 const email = document.querySelector('#email');
 const message = document.querySelector('#message');
 const error = document.querySelector('#error-message');
@@ -17,7 +17,7 @@ const showError = (input, message) => {
     formField.classList.remove('success');
     formField.classList.add('error');
     const error = formField.querySelector('small');
-    error.value = message;
+    error.textContent = message;
 };
 
 const showSuccess = (input) => {
@@ -25,7 +25,7 @@ const showSuccess = (input) => {
     formField.classList.remove('error');
     formField.classList.add('success');
     const error = formField.querySelector('small');
-    error.value = '';
+    error.textContent = '';
 };
 
 const checkFullName = () => {
