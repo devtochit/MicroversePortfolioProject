@@ -189,7 +189,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    background: #1b1b1e;
+    background: #fff;
     width: 775px;
     height: 300px;
   }
@@ -246,5 +246,18 @@
     gap: 32rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+  }
+
+  .menuX {
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(14, 1, 1);
   }
 }
