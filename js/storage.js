@@ -1,5 +1,6 @@
 const formName = document.getElementById('username');
 const formText = document.getElementById('message');
+const mail = document.getElementById('email')
 const submitBtn = document.getElementById('submit-btn');
 
 submitBtn.addEventListener('click', () => {
@@ -19,11 +20,3 @@ window.addEventListener('load', () => {
     mail.value = myData.email;
 });
 
-const $resetForm = document.getElementById('reset-btn');
-
-$resetForm.addEventListener('click', () => {
-    localStorage.clear();
-    formName.value = '';
-    mail.value = '';
-    formText.value = '';
-});
