@@ -3,7 +3,7 @@ const username = document.getElementById('username');
 const email = document.getElementById('email');
 const textBox = document.getElementById('message');
 const errorMessage = document.getElementById("error-message")
-const inputArr = [username, email, textBox]
+const inputArr = { username, email, textBox }
 
 
 const isRequired = (value) => value !== '';
