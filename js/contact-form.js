@@ -70,8 +70,33 @@ const checkLength = function (input, min, max) {
         showSuccess(input);
     }
 }
+//local storage 
+function storeData() {
+    const formData = {
+        username: username.value,
+        email: email.value,
+        message: textBox.value,
+    };
 
+    localStorage.setItem('formData', JSON.stringify(formData));
+}
 
+function getData() {
+    if (!localStorage.getItem('formData')) {
+        storeData();
+    }
+
+    const localData = JSON.parse(localStorage.getItem('formData'));
+    username.setAttribute('value', localData.username);
+    email.setAttribute('value', localData.email);
+    textBox.textContent = localData.message;
+}
+
+getData();
+
+username.addEventListener('change', storeData);
+email.addEventListener('change', storeData);
+textBox.addEventListener('change', storeData);
 
 
 form.addEventListener('submit', (e) => {
@@ -85,5 +110,5 @@ form.addEventListener('submit', (e) => {
         form.submit();
     }
 
-
 })
+
