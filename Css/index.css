@@ -860,7 +860,7 @@ textarea {
     font-style: normal;
     line-height: 80%;
     padding: 20px 36px 16px 20px;
-    color: #fff;
+    color: rgb(3, 2, 2);
   }
 
   .project-languages2 {

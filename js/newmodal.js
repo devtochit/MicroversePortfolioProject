@@ -34,7 +34,7 @@ const projects = [
     featured_image2: 'assert/Group109.png',
     arrow_img: "assert/ic_arrow_right.png",
     source: 'https://github.com/HeDevedUp/MicroversePortfolioProject',
-    technologies: ['JavaScript', 'Git', 'CSS', 'HTML',]
+    technologies: ['Javascript', 'Git', 'CSS', 'HTML',]
   },
   {
     id: '3',
