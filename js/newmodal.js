@@ -38,9 +38,9 @@ const projects = [
   },
   {
     id: '3',
-    name: 'Project name goes here',
+    name: 'todo-list',
     live_version: 'https://github.com/HeDevedUp/MicroversePortfolioProject',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officiis doloribus similique illum est, accusamus deleniti expedita hic id itaque nostrum sint. Et magnam saepe dolorem pariatur labo',
+    description: 'a todo list app to keep tabs of your ',
     featured_image: 'assert/Rectangle214.png',
     featured_image2: 'assert/Group109.png',
     arrow_img: "assert/ic_arrow_right.png",
